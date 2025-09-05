@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/justinmnge/Gator/internal/config"
+	_ "github.com/lib/pq"
 )
 
 type state struct {
